@@ -26,3 +26,9 @@ Additional datasets under consideration: FB15k-237, OpenBioLink
 - Hits@1 / Hits@10  
 - Mean Reciprocal Rank (MRR)  
 - Baseline: TransE, DistMult
+
+## Baseline
+A TransE baseline using PyKEEN on FB15k-237.
+- Trained for 10 epochs
+- Evaluated with: Hits@1, Hits@10, Mean Reciprocal Rank (MRR)
+- Output: `baseline/transE_metrics.txt`
