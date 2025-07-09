@@ -17,3 +17,6 @@ result = pipeline(
 # Print evaluation metrics
 metrics = result.get_metric_results()
 print(metrics.to_dict())
+
+with open("baseline/transE_metrics.txt", "w") as f:
+    f.write(str(metrics.to_dict()))
